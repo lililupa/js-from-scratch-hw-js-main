@@ -4,7 +4,7 @@
 // your code
 let sum = 0;
 let i = 0;
-while (i < 20) {
+while (i < 21) {
   sum += i;
   i++;
 }
