@@ -4,21 +4,21 @@
  * Результат сохраните в переменной grade.
  */
 
-const score = 55; // тестовое значение, можно изменять
+const score = 33; // тестовое значение, можно изменять
 let grade;
-if (score >= 0 && score <= 49) {
+if (score >= 0 && score < 50) {
   grade = "F";
   console.log(grade);
-} else if (score >= 50 && score <= 69) {
+} else if (score < 70) {
   grade = "D";
   console.log(grade);
-} else if (score >= 70 && score <= 79) {
+} else if (score < 80) {
   grade = "C";
   console.log(grade);
-} else if (score >= 80 && score <= 89) {
+} else if (score < 90) {
   grade = "B";
   console.log(grade);
-} else if (score <=100) {
+} else if (score <= 100) {
   grade = "A";
   console.log(grade);
 }
