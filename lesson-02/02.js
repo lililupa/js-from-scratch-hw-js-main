@@ -7,8 +7,8 @@
 * Для успешного прохождения тестов не меняйте названия переменных!
 */
 
-let dice1 = Math.floor(Math.random() * 5);
-let dice2 = Math.floor(Math.random() * 5);
+let dice1 = Math.floor(Math.random() * 7);
+let dice2 = Math.floor(Math.random() * 7);
 let isWinningDouble = dice1 === dice2;
 
 console.log("Первый бросок: " + dice1);
