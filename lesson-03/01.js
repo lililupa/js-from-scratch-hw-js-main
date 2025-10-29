@@ -2,6 +2,7 @@
 
 function calculateAverage(num1, num2) {
   const average = (num1 + num2) / 2;
-  console.log(average);
+  return average;
 }
-calculateAverage(2,6)
+let calc = calculateAverage(10, -10);
+console.log(calc);
