@@ -21,10 +21,10 @@ function findCommonElements(array1, array2) {
   let commonElements = [];
 
   for (let i = 0; i < array1.length; i++) {
-    if (includesElement(array1, array2[i])) {
-      commonElements.push(array2[i]);
+    if (includesElement(array2, array1[i])) {
+      commonElements.push(array1[i]);
     }
   }
   return commonElements;
 }
-console.log(findCommonElements([2, 3, 4], [1, 2, 3]));
+console.log(findCommonElements([1, 2, 3, 4], [2, 3, 5, 6]));
